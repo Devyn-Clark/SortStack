@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "stack.css">
+    <title>Document</title>
+    <Nav >
+       <div class="Navigation">
+       
+        <div>
+        <img src="Images/arrow_blue_left_001.png" id="backButton" alt="home arrow" onclick="location.href= 'index.html'">
+         <p>Home</p>
+        </div> 
+     <h2>Sortstack</h2>
+      </div>
+        </Nav>
+</head>
+<body>
+<form id="form">
+<div class="inputForm">
+<div class="headings">
+<img src="Images/calendar.png" alt="calendar vector art">
+<h2>Set Your Date</h2>
+
+</div>
+<br>
+<label for="dateInput"></label>
+<br>
+<input type="text" id="dateInput" placeholder="Type you date into the bar"> 
+
+<br>
+<div class="inputList">
+<button type="button" class="inputButton" value="1">1</button>
+<button type="button" class="inputButton" value="2">2</button>
+<button type="button"  class="inputButton"value="3">3</button>
+<br>
+<button type="button" class="inputButton" value="4">4</button>
+<button type="button" class="inputButton" value="5">5</button>
+<button type="button" class="inputButton" value="6">6</button>
+<br>
+<button type="button" class="inputButton" value="7">7</button>
+<button type="button" class="inputButton" value="8">8</button>
+<button type="button" class="inputButton"value="9">9</button>
+<br>
+<button type="button" class="inputButton" value="/">/</button>
+<button type="button" class="inputButton" value="0">0</button>
+<br>
+<input type="submit"  id='submitDates'value="submit" > 
+</div>
+<div id="date-list">
+</div> 
+</div>
+</form>
+<script src="javaScript/createTask.js"></script>
+  
+</body>
+
+
+</html>
